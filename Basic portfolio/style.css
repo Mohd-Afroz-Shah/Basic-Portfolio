@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Kaushan+Script&family=Raleway:ital,wght@0,500;1,200&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    display: flex;
+} 
+h1{
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    border: 2px solid black;
+}
+.sidebar{
+    height: 100vh;
+    background-color: rgb(180, 222, 239);
+    width: 15vw;
+}
+.sidebar nav li {
+    list-style-type: none;
+    padding: 42px;
+    text-align: center;
+    font-size: 23px;
+}
+.sidebar nav li a:hover{
+    cursor: pointer;
+    color: grey;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+
+    /* background-color: maroon; */
+}
+.infoContainer{
+    width: 80vw;
+    display: flex;
+    /* background-color: black; */
+    color: white;
+    margin: 25px;
+    /* margin-left: 0px; */
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 15px;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+}
+.hii{
+    font-size: 35px;
+}
+.name{
+    font-size: 30px;
+    font-weight: bold;
+}
+.intro{
+    font-size: 25px;
+}
+.bio1{
+    font-size: 20px;
+
+}
+.btn{
+    display: flex;
+}
+.infoContainer .devInfo .btn .contact,.cv{
+   margin: 4px;
+   padding: 4px;
+   border-radius: 7px;b
+}
+.infoContainer .devInfo .btn .contact a,.cv a{
+   text-decoration: none;
+   color: black;
+}
+.infoContainer .devInfo .btn .contact:hover{
+   cursor: pointer;
+   background-color: aliceblue;
+}
+.infoContainer .devInfo .btn .cv:hover{
+   cursor: pointer;
+   background-color: aliceblue;
+}
+.devImg{
+    height : 60vh;
+}
